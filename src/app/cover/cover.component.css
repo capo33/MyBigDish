@@ -1,0 +1,13 @@
+.cover2::after{
+    overflow: auto;
+    content: '';
+    height: 50vh;
+    width: 100%;
+    background-image: url("../../assets/image/big-dish.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    transition: all 1000ms;
+}
+
